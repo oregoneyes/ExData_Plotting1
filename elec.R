@@ -41,6 +41,7 @@ plot1 <- hist(as.numeric(red_elec$Global_active_power), main = 'Global Active Po
 
 # plot 2
 
-plot(red_elec$Time, as.numeric(red_elec$Global_active_power), type = 'l')
+plot(red_elec$Time, as.numeric(red_elec$Global_active_power), type = 'l', xlab = '', ylab = 'Global Active Power (kilowatts)',
+     font = 4)
 
      
